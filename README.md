@@ -187,7 +187,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Ali Baran Taşdemir - [@alibrnt](https://twitter.com/alibrnt) - alibaran@tasdemir.us
 
-Project Link: [https://github.com/alibtasdemir/](https://github.com/alibtasdemir/)
+Project Link: [https://github.com/alibtasdemir/CAFA5-GNN](https://github.com/alibtasdemir/CAFA5-GNN)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,16 +207,16 @@ Project Link: [https://github.com/alibtasdemir/](https://github.com/alibtasdemir
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/alibtasdemir/WebImageSeg.svg?style=for-the-badge
-[contributors-url]: https://github.com/alibtasdemir/WebImageSeg/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alibtasdemir/WebImageSeg.svg?style=for-the-badge
-[forks-url]: https://github.com/alibtasdemir/WebImageSeg/network/members
-[stars-shield]: https://img.shields.io/github/stars/alibtasdemir/WebImageSeg.svg?style=for-the-badge
-[stars-url]: https://github.com/alibtasdemir/WebImageSeg/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alibtasdemir/WebImageSeg.svg?style=for-the-badge
-[issues-url]: https://github.com/alibtasdemir/WebImageSeg/issues
-[license-shield]: https://img.shields.io/github/license/alibtasdemir/WebImageSeg.svg?style=for-the-badge
-[license-url]: https://github.com/alibtasdemir/WebImageSeg/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/alibtasdemir/CAFA5-GNN.svg?style=for-the-badge
+[contributors-url]: https://github.com/alibtasdemir/CAFA5-GNN/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alibtasdemir/CAFA5-GNN.svg?style=for-the-badge
+[forks-url]: https://github.com/alibtasdemir/CAFA5-GNN/network/members
+[stars-shield]: https://img.shields.io/github/stars/alibtasdemir/CAFA5-GNN.svg?style=for-the-badge
+[stars-url]: https://github.com/alibtasdemir/CAFA5-GNN/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alibtasdemir/CAFA5-GNN.svg?style=for-the-badge
+[issues-url]: https://github.com/alibtasdemir/CAFA5-GNN/issues
+[license-shield]: https://img.shields.io/github/license/alibtasdemir/CAFA5-GNN.svg?style=for-the-badge
+[license-url]: https://github.com/alibtasdemir/CAFA5-GNN/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alibtasdemir
 [product-screenshot]: images/screenshot.png
