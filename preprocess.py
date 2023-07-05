@@ -30,3 +30,12 @@ def read_embeddings(t5path):
     train_df.set_index("EntryID", inplace=True)
 
     return train_prot_ids, torch.from_numpy(train_df.values).to(torch.float)
+
+
+def read_embeddings_new(main_dir):
+    protein_embs_df = pd.read_csv(path.join(main_dir, "train_protein_embs_reduced.csv"), index_col=0)
+    term_embs_df = pd.read_csv(path.join(main_dir, "go_embeddings_reduced.csv"), index_col=0)
+
+    protein_ids, protein_embs = protein_embs_df.index.values, torch.from_numpy(protein_embs_df.values).to(torch.float)
+    term_ids, term_embs = term_embs_df.index.values, torch.from_numpy(term_embs_df.values).to(torch.float)
+    return protein_ids, protein_embs, term_ids, term_embs

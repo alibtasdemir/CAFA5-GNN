@@ -37,5 +37,6 @@ benchmark/results/
 models
 config
 notebooks
+logs
 !torch_geometric/data/
 !test/data/

@@ -40,6 +40,8 @@ class Model(Module):
 
         # PROTEIN FEATURE INPUT
         self.prot_lin = torch.nn.Linear(1024, hidden_channels)
+        # TERM FEATURE INPUT
+        self.term_lin = torch.nn.Linear(200, hidden_channels)
 
         # EMBEDDING LAYERS
         self.prot_emb = torch.nn.Embedding(protein_input, hidden_channels)
@@ -56,7 +58,7 @@ class Model(Module):
 
     def forward(self, data: HeteroData) -> Tensor:
         x_dict = {
-            "term": self.term_emb(data["term"].node_id),
+            "term": self.term_lin(data["term"].x) + self.term_emb(data["term"].node_id),
             "protein": self.prot_lin(data["protein"].x) + self.prot_emb(data["protein"].node_id),
         }
 
